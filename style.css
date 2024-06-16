@@ -103,6 +103,12 @@ p{
 .about p{
     text-align: justify;
 }
+.about > article > ul {
+    margin-top: 10px;
+}
+.about > article > ul > li {
+    list-style: none;
+}
 
 .svg-container{
     display: flex;
