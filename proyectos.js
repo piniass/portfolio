@@ -3,7 +3,7 @@ const proyectos = [
     {
       titulo: "ConexionFit",
       imagen: "conexionfit.png",
-      descripcion: "Este es mi proyecto de fin de grado junto a un compañero. El proyecto destaca por la interfaz amigable, el uso de librerías como Chart.JS para el uso de gráficas y porque es el primer proyecto en el que consigo que interactúen el frontend con un mi propio backend en un proyecto serio.",
+      descripcion: "Este es mi proyecto de fin de grado junto a un compañero. El backend está desarrollado con FastAPI y el front con React.js y Tailwind.css. El proyecto destaca por la interfaz amigable, el uso de librerías como Chart.JS para el uso de gráficas y porque es el primer proyecto en el que consigo que interactúen el frontend con un mi propio backend en un proyecto serio.",
       enlace: "https://conexionfit.vercel.app/",
       github: "https://github.com/piniass/tfg",
     },
@@ -15,18 +15,18 @@ const proyectos = [
       github: "https://github.com/piniass/flags-frontendmoentor",
     },
     {
-        titulo: "Página de Marco Dimio",
-        imagen: "dimio.png",
-        descripcion: "Proyecto colaborativo junto a Gurises y el influencer Dimio para hacer su página web. La página fue hecha a través de Wordpress y me encargué del desarrollo y funcionamiento de la página.",
-        enlace: "https:///marcodimio.com",
-        github: "#",
-      },
-    {
       titulo: "Generador de Contraseñas",
       imagen: "generador.png",
       descripcion: "Desafio de FrontendMentor. Lo hice para practicar el maquetado y el manejo del JavaScript.",
       enlace: "https://64f4a5102d4755272dafcda8--superlative-sunburst-9512a3.netlify.app/",
       github: "https://github.com/piniass/generador-contrasenas",
+    },
+    {
+      titulo: "Tienda de relojes",
+      imagen: "relojes.png",
+      descripcion: "Proyecto de clase centrado principalmente en el desarrollo del escaparte de una tienda virtual con Bootstrap. El objetivo de este proyecto era poner en práctica y entender el funcionamiento de Bootstrap.",
+      enlace: "https://tienda-relojes.vercel.app/",
+      github: "https://github.com/piniass/escaparate",
     },
   ];
   
