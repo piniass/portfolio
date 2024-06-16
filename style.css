@@ -4,6 +4,10 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body{
+    background-color: #f5f5f5;
+}
+
 h1{
     font-size: 4rem;
 }
@@ -110,6 +114,15 @@ p{
     list-style: none;
 }
 
+.about > article > ul > li > div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about > article > ul > li > div > legend {
+    color: rgb(99, 99, 99);
+}
 .svg-container{
     display: flex;
     flex-direction: row;
@@ -143,6 +156,7 @@ p{
     margin: 0 auto;
     box-sizing: border-box;
     border: 1px solid rgb(173, 173, 173);
+    background-color: #fff;
 }
 
 .card-img{
@@ -200,6 +214,15 @@ p{
     gap: 10px;
 }
 
+.contact > p > a {
+    color: #09df;
+    text-decoration: none;
+}
+
+.contact > p > a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
 
 .contact form{
     display: flex;
@@ -237,6 +260,9 @@ textarea{
     display: flex;
     flex-direction: column-reverse;
     gap: 10px;
+   }
+   .about > article > p{
+    text-align: left;
    }
    .nav__ul{
     display: flex;
