@@ -1,6 +1,13 @@
 // trabajos.js
 const proyectos = [
     {
+      titulo: "Linkeados",
+      imagen: "linkeados-foto.png",
+      descripcion: "Aplicacion FullStack, desarrollada con el stack MERN. En este proyecto me centré en mejorar aspecto de sesiones, loggin y autenticación y aprender nuevas habilidades tanto en Node.js, Express y MongoDB.",
+      enlace: "https://linkeados.vercel.app/",
+      github: "https://github.com/piniass/link-app",
+    },
+    {
       titulo: "ConexionFit",
       imagen: "conexionfit.png",
       descripcion: "Este es mi proyecto de fin de grado junto a un compañero. El backend está desarrollado con FastAPI y el front con React.js y Tailwind.css. El proyecto destaca por la interfaz amigable, el uso de librerías como Chart.JS para el uso de gráficas y porque es el primer proyecto en el que consigo que interactúen el frontend con un mi propio backend en un proyecto serio.",

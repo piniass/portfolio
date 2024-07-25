@@ -123,6 +123,10 @@ p{
 .about > article > ul > li > div > legend {
     color: rgb(99, 99, 99);
 }
+.about > article > ul > li > p > a {
+    text-decoration: none;
+    color: purple;
+}
 .svg-container{
     display: flex;
     flex-direction: row;
